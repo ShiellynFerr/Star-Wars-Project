@@ -1,0 +1,87 @@
+.header {
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/header-fundo.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header .star-img .wars-img {
+    height: 520px;
+    width: 100%;
+}
+
+.figure-header {
+    margin-left: 50px;
+}
+
+.title-header-img {
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 310px;
+}
+
+.title-header-img figure {
+    display: flex;
+    gap: 290px;
+}
+
+.title-header-img img {
+    height: 80px;
+    width: 350px;
+}
+
+
+.Kylo-ren img {
+    width: 900px;
+    height: 700px;
+    position: absolute; 
+    top: 1px;
+    left: 140px; 
+}
+
+.legiao {
+    height: 150px;
+    width: 180px;
+    position: relative;
+    top: 340px;
+    left: 75%;
+}
+
+.legiao p{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.legiao .legiao-span {
+    color: #000;
+    font-weight: bold;
+}
+
+.legiao .legiao-span::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0px;
+}
+
+.legiao .legiao-number {
+    font-size: 16px;
+}
+
+.legiao button {
+    padding: 1px;
+    border-radius: 4px;
+    border: none;
+    background-color: #A9BDC1;
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+}
