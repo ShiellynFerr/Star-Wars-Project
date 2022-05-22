@@ -1,0 +1,18 @@
+/* importando font */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans:wght@300;600;700&display=swap');
+
+/* Reset css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul ol li {
+    list-style: none;
+}
