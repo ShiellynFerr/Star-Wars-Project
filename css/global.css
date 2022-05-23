@@ -9,10 +9,14 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
 }
 
-ul ol li {
+ul {
     list-style: none;
 }
