@@ -1,0 +1,258 @@
+/* Adicionando responsividade na header */
+
+@media(max-width:500px) {
+    .header {
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .section-header {
+        height: 200px;
+        width: 100%;
+        background-image: url(../img/header-fundo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .section-header-menu{
+        height: 700px;
+        width: 100%;
+        background-image: url(../img/sta-uo-robot.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    .title-header-img {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+    }
+    
+    .title-header-img img {
+        height: 50px;
+        width: 100px;
+    }
+    .Kylo-ren img {
+        width: 300px;
+        height: 300px;
+        position: absolute; 
+        top: -30px;
+        left: 75px; 
+    }
+    .title-header-img figure {
+        display: flex;
+        gap: 115px;
+    }
+    .legiao {
+        height: 90px;
+        width: 100px;
+        position: relative;
+        top: 120px;
+        left: 78%;
+    }
+
+    .legiao p{
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+    }
+    .legiao .legiao-span::after{
+        content: '';
+        display: block;
+        width: 80%;
+        height: 2px;
+        background-color: #000;
+        margin: 10px 0px;
+    }
+    
+    .legiao .legiao-number {
+        font-size: 14px;
+    }
+    .card-start-play {
+        height: 684px;
+        width:  100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-start-play img {
+        height: 450px;
+        width: 320px;
+        position: absolute;
+        top: 100px;
+        left: -40px;
+    }
+    
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        color: #fff;
+        width: 340px;
+        position: relative;
+        top: 180px;
+        left: -40px;
+        padding: 10px;
+    }
+    .card-start-play::after {
+        content: '';
+        display: block;
+        width: 85%;
+        height: 8px;
+        background-color: #707070;
+        margin: 20px 0px;
+        position: relative;
+        top: 520px;
+        left: -130px;
+    }
+    .card-content p {
+        font-size: 18px;
+        width: 80%;
+        margin-left: 10px;
+    }
+    .card-content h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    
+    .card-content .h3-2 {
+      margin-bottom: 20px;
+    }
+    .card-content .card-date {
+        font-size: 14px;
+        display: block;
+        margin-top: 50px;
+        margin-left: -5px;
+    }
+    .card-content .card-button {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #fff;
+        width: 150px;
+        height: 40px;
+        margin-top: 40px;
+        background-color: inherit;
+        border-color: #fff;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+        transition: all 250ms;
+        overflow: hidden
+    }
+    .about-game {
+        height: 200px;
+        width: 480px;
+        position: absolute;
+        top: 700px;
+        left: -90px;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .about-game h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    
+    .about-game span {
+        content: '';
+        display: block;
+        width: 50%;
+        height: 4px;
+        background-color: #000;
+        margin: 10px 0px;
+        position: relative;
+        top: 1px;
+    }
+    
+    .about-game p {
+        font-size: 14px;
+    }
+
+    .about-game figure {
+        position: absolute;
+        top: -235px;
+        left: 90px;
+    }
+    
+    .about-game img {
+        width: 320px;
+        height: 180px;
+    }
+    
+    .about-game-content {
+        height: 300px;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px 10px;
+        position: relative;
+        top: 60px;
+        left: -50px;
+    }
+    .about-game h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    .container-menu {
+        display: flex;
+        position: relative;
+        top: 540px;
+        left: -100px;
+        height: 500px;
+    }
+    .container-menu img {
+        height: 600px;
+        width: 240px;
+    }
+
+    .container-menu .rey-star {
+        left: 200px;
+    }
+
+    .container-menu .lord {
+        left: -120px;
+    }
+    
+    .container-menu .menu-nav {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 150px;
+        left: 10px;
+    
+    }
+    
+    .container-menu .menu-nav p{
+        font-size: 18px;
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .container-menu .menu-nav span {
+        font-weight: bold;
+    }
+    
+    .container-menu .menu-ul {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .container-menu .menu-ul li {
+        text-transform: uppercase;
+        text-align: right;
+        margin-top: 24px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
