@@ -3,15 +3,14 @@
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
-    /* background-color: crimson; */
 }
 
 .section-header {
     height: 600px;
     width: 100%;
     background-image: url(../img/header-fundo.png);
-    background-position: center center;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .figure-header {
@@ -49,12 +48,12 @@
     height: 150px;
     width: 180px;
     position: relative;
-    top: 340px;
+    top: 330px;
     left: 75%;
 }
 
 .legiao p{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
@@ -74,7 +73,7 @@
 }
 
 .legiao .legiao-number {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .legiao button {
@@ -93,8 +92,7 @@
   height: 1300px;
   width: 100%;
   background-image: url(../img/sta-uo-robot.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 
@@ -109,9 +107,6 @@
     position: relative;
     left: 180px;
     top: -30px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around; */
 }
 
 .card-start-play img {
