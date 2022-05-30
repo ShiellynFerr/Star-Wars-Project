@@ -165,7 +165,7 @@
 }
 .card-content .card-button:hover {
    transition: box-shadow 5s;
-  box-shadow: inset  20vw 0  #CA2911;
+   box-shadow: inset  20vw 0  #CA2911;
 }
 
 .card-content .card-date {

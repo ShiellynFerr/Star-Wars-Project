@@ -1,4 +1,182 @@
+
+
 .footer {
-    height: 900px;
+    height: 1200px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container-1{
+    display: flex;
+    height: 580px;
+    gap: 5px;
+}
+
+.footer-container-1 .img-trooper {
+    position: relative;
+    bottom: 280px;
+    width: 537px;
+    height: 806px;
+}
+
+.footer-section {
+  width: 820px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-game {
+    width: 380px;
+    height: 280px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-game .p-number {
+    font-size: 50px;
+}
+
+.footer-game .p-description {
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.footer-game .p-description .p-first {
+    width: 100%;
+}
+
+.footer-game button {
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    margin: 20px 0px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.footer-game button:hover {
+    transition: box-shadow 5s;
+   box-shadow: inset  20vw 0  #FF5A56;
+}
+
+.footer-game span {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 4px;
+    background-color: #000;
+    margin-top:40px;
+}
+
+.footer-game .span-game {
+    background-color: #FF5A56;
+}
+
+.footer-container-2 {
+    display: flex;
+    background-color: #fff;
+    height: 650px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-container-2 .retan-container {
+    width: 700px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF5A56;
+    color:#fff;
+}
+
+.retan-content-1 {
+    height: 600px;
+    width: 650px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.retan-container h2 {
+    font-size: 50px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+}
+
+.retan-container p {
+    width: 82%;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.retan-content-1 img {
+    width: 230px;
+}
+.retan-content-1 .darth{
+    position: absolute;
+    left: 580px;
+    height: 700px;
+    width: 500px;
+    bottom: -3800px;
+}
+.retan-content-1 .btn-footer {
+    margin: 20px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.retan-content-1 span {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 4px;
+    background-color: #D74430;
+}
+
+.retan-content-2 {
+    height: 410px;
+    width: 550px;
+    margin-top: 20px;
+    padding: 5px 0px;
+}
+
+.retan-content-2 img {
+    width: 220px;
+    height: 100px;
+}
+
+.retan-content-2 p {
+    font-size: 20px;
+    width: 78%;
+}
+
+.footer-container-end img {
+    position: relative;
+    bottom: 290px;
+    right: 180px;
+}
+
+.vnw-container {
+    width: 400px;
+    height: 70px;
+    margin-top: 42%;
+    margin-left: 5%;
+}
+
+.footer .p-Vnw {
+    position: relative;
+    bottom:100px;
+    left: 800px;
+    font-size: 15px;
+    width: 20%;
 }
