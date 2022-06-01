@@ -42,6 +42,10 @@
     font-size: 50px;
 }
 
+.footer-game:hover .p-number {
+    font-weight: 1000;
+}
+
 .footer-game .p-description {
     font-size: 20px;
     width: 70%;
@@ -80,8 +84,9 @@
     margin-top:40px;
 }
 
-.footer-game .span-game {
-    background-color: #FF5A56;
+.footer-game:hover span {
+    transition: box-shadow 5s;
+    box-shadow: inset  20vw 0  #FF5A56;
 }
 
 .footer-container-2 {
