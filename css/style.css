@@ -2,4 +2,7 @@
 @import 'header.css';
 @import 'media.css';
 @import 'main.css';
-@import 'footer.css'
+@import 'footer.css';
+@import 'media-header.css';
+@import 'media-main.css';
+@import 'media-footer.css';
