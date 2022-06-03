@@ -8,7 +8,7 @@
 }
 
 .main-title {
-  padding: 20px;
+  padding: 80px;
   margin-left: -600px;
   margin-bottom: 40px;
 }
@@ -20,7 +20,7 @@
 
 .container-main {
     width: 100%;
-    height: 980px;
+    height: 990px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,8 +29,8 @@
 }
 
 .first-group-img{
-    height: 600px;
-    width: 1010px;
+    height: 500px;
+    width: 1030px;
     display: flex;
     flex-direction: column;
 }
@@ -72,7 +72,6 @@
     height: 150px;
 }
 .second-group-img {
-    background-color: gold;
     height: 450px;
     width: 1010px;
     display: flex;

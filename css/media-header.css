@@ -1,87 +1,108 @@
-/* Adicionando responsividade na header */
+
 
 @media(max-width:500px) {
-    .header {
-        height: 1700px;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Open Sans', sans-serif;
-    }
-    .section-header {
-        height: 200px;
-        width: 100%;
-        background-image: url(../img/header-fundo.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
-    .section-header-menu{
-        height: 700px;
-        width: 100%;
-        background-image: url(../img/sta-uo-robot.png);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-      }
     .title-header-img {
         display: flex;
         align-items: center;
         flex-direction: column;
         position: relative;
-        top: 100px;
+        top: 120px;
+        left: 80px;
+        width: 350px;
     }
+    
+    .title-header-img figure {
+        display: flex;
+        gap: 150px;
+    }
+    
     
     .title-header-img img {
         height: 50px;
-        width: 100px;
+        width: 60px;
     }
+    
     .Kylo-ren img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 270px;
         position: absolute; 
-        top: -30px;
-        left: 75px; 
+        top: 1px;
+        left: 140px; 
     }
-    .title-header-img figure {
+    .header {
+        height: 1410px;
         display: flex;
-        gap: 115px;
-    }
-    .legiao {
-        height: 90px;
-        width: 100px;
-        position: relative;
-        top: 120px;
-        left: 78%;
+        flex-direction: column;
+        font-family: 'Open Sans', sans-serif;
     }
 
+    .legiao {
+        height: 100px;
+        width: 180px;
+        position: relative;
+        top: 130px;
+        left: 80%;
+    }
+    
     .legiao p{
-        font-size: 14px;
+        font-size: 12px;
         font-family: 'Open Sans', sans-serif;
         text-transform: uppercase;
     }
+    
+    .legiao .legiao-span {
+        color: #000;
+        font-weight: bold;
+    }
+    
     .legiao .legiao-span::after{
         content: '';
         display: block;
-        width: 80%;
+        width: 38%;
         height: 2px;
         background-color: #000;
         margin: 10px 0px;
     }
     
     .legiao .legiao-number {
-        font-size: 14px;
+        font-size: 10px;
     }
-    .card-start-play {
-        height: 684px;
-        width:  100%;
-        display: flex;
-        flex-direction: column;
+    
+    .legiao button {
+        padding: 1px;
+        border-radius: 4px;
+        border: none;
+        background-color: #A9BDC1;
+        opacity: 1;
+        font-weight: bold;
+        cursor: pointer;
     }
-    .card-start-play img {
-        height: 450px;
-        width: 320px;
-        position: absolute;
+    
+    .section-header {
+        height: 600px;
+        width: 100%;
+        background-image: url(../img/header-fundo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .section-header-menu{
+        height: 1200px;
+        width: 100%; 
+        background-image: url(../img/sta-uo-robot.png);
+        background-size: cover;
+      }
+
+      .card-start-play {
+        height: 1200px;
+        width: 430px;
+        position: relative;
         top: 100px;
-        left: -40px;
+    }
+    
+    .card-start-play img {
+        height: 330px;
+        width: 250px;
+        margin-left: 40%;
     }
     
     .card-content {
@@ -89,43 +110,35 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 400px;
+        height: 280px;
         color: #fff;
-        width: 340px;
-        position: relative;
-        top: 180px;
-        left: -40px;
-        padding: 10px;
+        width: 280px;
+        margin-left: 40%;
     }
-    .card-start-play::after {
-        content: '';
-        display: block;
-        width: 85%;
-        height: 8px;
-        background-color: #707070;
-        margin: 20px 0px;
-        position: relative;
-        top: 520px;
-        left: -130px;
-    }
+    
     .card-content p {
-        font-size: 18px;
-        width: 80%;
-        margin-left: 10px;
+        font-size: 10px;
+        width: 60%;
+
     }
     .card-content h3 {
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .card-content .h3-2 {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
-    .card-content .card-date {
-        font-size: 14px;
+
+    .card-start-play::after {
+        content: '';
         display: block;
-        margin-top: 50px;
-        margin-left: -5px;
+        width: 460px;
+        height: 5px;
+        background-color: #707070;
+        margin: 20px 0px;
+        position: relative;
+        top: -500px;
     }
     .card-content .card-button {
         font-size: 18px;
@@ -133,7 +146,7 @@
         color: #fff;
         width: 150px;
         height: 40px;
-        margin-top: 40px;
+        margin-top: 30px;
         background-color: inherit;
         border-color: #fff;
         position: relative;
@@ -142,117 +155,118 @@
         transition: all 250ms;
         overflow: hidden
     }
+    .card-content .card-button a {
+        color: #fff;
+    }
+    .card-content .card-button:hover {
+       transition: box-shadow 5s;
+       box-shadow: inset  20vw 0  #CA2911;
+    }
+    
+    .card-content .card-date {
+        font-size: 10px;
+        display: block;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
     .about-game {
-        height: 200px;
-        width: 480px;
-        position: absolute;
-        top: 700px;
-        left: -90px;
+        height: 300px;
+        width: 470px;
         color: #000;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
+        position: relative;
+        top: -160px;
+        left: -100px;
+        margin-left: 13%;
     }
     
     .about-game h2 {
         font-size: 18px;
         text-transform: uppercase;
+        text-align: left;
     }
     
     .about-game span {
         content: '';
         display: block;
         width: 50%;
-        height: 4px;
+        height: 2px;
         background-color: #000;
-        margin: 10px 0px;
-        position: relative;
-        top: 1px;
+        margin: 20px 0px;
     }
     
     .about-game p {
         font-size: 14px;
     }
-
-    .about-game figure {
-        position: absolute;
-        top: -235px;
-        left: 90px;
-    }
     
     .about-game img {
-        width: 320px;
-        height: 180px;
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        bottom: 250px;
+        right: 4px;
     }
     
     .about-game-content {
-        height: 300px;
-        width: 380px;
+        height: 180px;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        padding: 0px 10px;
-        position: relative;
-        top: 60px;
-        left: -50px;
-    }
-    .about-game h2 {
-        font-size: 18px;
-        text-transform: uppercase;
-        text-align: right;
-    }
-    .container-menu {
-        display: flex;
-        position: relative;
-        top: 540px;
-        left: -100px;
-        height: 500px;
-    }
-    .container-menu img {
-        height: 600px;
-        width: 240px;
-    }
+        align-items: center;
+        justify-content: center;
+        margin-right: -200px;
+        
+} 
 
-    .container-menu .rey-star {
-        left: 200px;
-    }
+.container-menu {
+    display: flex;
+    position: relative;
+    top: -170px;
+    left: -130px;
+    height: 270px;
+    width: 550px;
+}
 
-    .container-menu .lord {
-        left: -120px;
-    }
-    
-    .container-menu .menu-nav {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: 150px;
-        left: 10px;
-    
-    }
-    
-    .container-menu .menu-nav p{
-        font-size: 18px;
-        text-align: right;
-        text-transform: uppercase;
-        font-weight: 600;
-    }
-    
-    .container-menu .menu-nav span {
-        font-weight: bold;
-    }
-    
-    .container-menu .menu-ul {
-        font-size: 14px;
-        margin-top: 20px;
-    }
-    
-    .container-menu .menu-ul li {
-        text-transform: uppercase;
-        text-align: right;
-        margin-top: 24px;
-        margin-right: 10px;
-        cursor: pointer;
-    }
+.container-menu img {
+    height: 350px;
+    width: 170px;
+}
+
+.container-menu .menu-nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-menu .menu-nav p{
+    font-size: 18px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container-menu .menu-nav span {
+    font-weight: bold;
+}
+
+.container-menu .menu-ul {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.container-menu .menu-ul li {
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.container-menu .menu-ul li:hover {
+    background-color: #D74430;
+}
+
 }
